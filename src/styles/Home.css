@@ -1,0 +1,59 @@
+.typer{
+    display:inline-block;
+
+}
+.home {
+    width: 100%;
+    height: 84vh;
+  
+ 
+  
+  }
+
+  
+.text{
+   
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+}
+
+
+ .typer{
+    background: -webkit-linear-gradient(45deg, #09009f, #32d390 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    padding-left: 3rem;
+    padding-top: 8rem;
+    font-size: 6rem;
+    font-weight: 600;
+    position: absolute;
+  }
+
+  .d{
+    position: relative;
+    width: 100%;
+  }
+
+  .outer {
+    display: grid;
+    flex-grow: 3;
+    
+ 
+  }
+  .outer > * {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+  .outer .below {
+    z-index: 1;
+        
+  }
+ 
+  .outer .top {
+    z-index: 2;
+    align-items: flex-end;
+    display: inline;
+  }
