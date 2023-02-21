@@ -1,6 +1,7 @@
 {
   "name": "kevco",
   "version": "0.1.0",
+  "homepage": "https://kevin21018212.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.5",
